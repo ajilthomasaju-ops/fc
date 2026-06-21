@@ -1,0 +1,309 @@
+body{
+font-family:'Poppins',sans-serif;
+background:#f8f9fa;
+}
+.hero-logo{
+    max-width: 40px;
+
+}
+.navbar{
+background:#0A2342;
+}
+.navbar-nav .nav-link:hover {
+    color: rgb(179, 167, 167) !important; /* Bootstrap warning (gold) */
+}
+
+.navbar-brand{
+font-family:'Playfair Display',serif;
+}
+#hov:hover{
+   
+    color: gold;
+}
+
+.nav-link{
+margin-left:15px;
+font-weight:500;
+}
+
+.hero{
+background:url("img/Argentinian\ Flag\ Argentina\ -\ Free\ photo\ on\ Pixabay.jpg") center/cover;
+height:100vh;
+position:relative;
+}
+
+.overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.6);
+}
+
+.hero .container{
+position:relative;
+z-index:2;
+}
+
+.section-title{
+font-family:'Playfair Display',serif;
+font-size:45px;
+color:#0A2342;
+}
+
+.btn-warning{
+background:#F6C445;
+border:none;
+}
+
+.btn-warning:hover{
+background:#e4b12e;
+}
+
+img{
+width:100%;
+}
+.player-card{
+    transition:.4s;
+}
+
+.player-card:hover{
+    transform:translateY(-10px);
+}
+
+.player-card img{
+    height:320px;
+    object-fit:cover;
+}
+
+.achievement{
+    background:#fff;
+    transition:.3s;
+}
+.ach{
+    color: gold;
+}
+#ach1{
+    background: url(img/copa\ mundial.jpg);
+}
+.achievement:hover{
+    transform:translateY(-10px);
+}
+
+.gallery-item{
+    width:100%;
+    height: 500px;;          /* Same height for every image */
+    overflow:hidden;
+    border-radius:10px;
+}
+
+.gallery-img{
+    width:100%;
+    height:100%;
+    object-fit:cover;      /* Crop image to fit */
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.gallery-img:hover{
+    transform:scale(1.05);
+}
+
+.card-img-top{
+    height:250px;
+    object-fit:cover;
+}
+.player-card{
+transition:.4s;
+}
+
+.player-card:hover{
+transform:translateY(-10px);
+}
+
+.player-card img{
+height:320px;
+object-fit:cover;
+}
+
+.achievement{
+background:#0A2342;
+}
+
+.gallery img{
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+.Learn{
+    background-image: url("img/Argentina\ 🇦🇷\ \(1\).jpg");
+    
+}
+
+.card{
+border-radius:15px;
+overflow:hidden;
+}
+
+.card img{
+height:250px;
+object-fit:cover;
+}
+
+
+.str{
+    color: #F6C445;
+}
+
+.card:hover{
+transform:translateY(-8px);
+transition:.4s;
+}/* Footer */
+
+.footer{
+background:#0A2342;
+color:white;
+}
+
+.footer a{
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+#but{
+    background: rgb(64, 64, 161);
+    color: black;
+}
+#but:hover{
+    background: goldenrod;
+}
+
+.footer a:hover{
+color:#F6C445;
+}
+
+.footer i{
+font-size:28px;
+}
+
+/* Contact */
+
+.form-control{
+padding:15px;
+border-radius:10px;
+}
+
+.form-control:focus{
+box-shadow:none;
+border-color:#F6C445;
+}
+
+/* Top Button */
+
+.top-btn{
+position:fixed;
+bottom:20px;
+right:20px;
+width:50px;
+height:50px;
+background:#F6C445;
+color:#000;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:50%;
+text-decoration:none;
+font-size:22px;
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.top-btn:hover{
+background:#fff;
+transform:translateY(-5px);
+}
+
+/* Table */
+
+.table{
+border-radius:10px;
+overflow:hidden;
+}
+
+/* Smooth Scroll */
+
+html{
+scroll-behavior:smooth;
+}
+
+/* Responsive */
+
+@media (max-width:991px){
+
+    .navbar-brand{
+        font-size:1.5rem;
+    }
+
+    .hero{
+        text-align:center;
+    }
+
+    .hero h1{
+        font-size:2.5rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+}
+
+@media (max-width:768px){
+
+    .section-title{
+        font-size:32px;
+    }
+
+    .gallery-item{
+        height:220px;
+    }
+
+    .card-img-top,
+    .player-card img{
+        height:240px;
+    }
+
+    .hero{
+        padding-top:120px;
+    }
+
+    .footer{
+        text-align:center;
+    }
+}
+
+@media (max-width:576px){
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .hero p{
+        font-size:0.95rem;
+    }
+
+    .btn{
+        width:100%;
+        margin-bottom:10px;
+    }
+
+    .hero-logo{
+        max-width:30px;
+    }
+
+    .navbar-brand{
+        font-size:1.2rem;
+    }
+}

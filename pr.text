@@ -1,0 +1,79 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Vortex Automotive</a>
+    <img src="img/logo-removebg-preview.png" alt="Logo" style="width:60px; height:auto;">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#fc">Featured Cars</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#pc">Popular Models</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#rv">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#cont">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#ab">About</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+////////////////////////////////////////////
+
+//////////////////////////
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <img src="img/Argentina_AFA-removebg-preview.png" class="img-fluid hero-logo gap-3" alt="AFA Logo">
+<a class="navbar-brand fw-bold fs-4 fs-lg-2" href="#"> Albiceleste FC </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+<a class="nav-link active" href="#home">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="#fame">Fame</a>
+</li>
+
+
+<li class="nav-item">
+<a class="nav-link active" href="#achievement">Achievements</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="#gallery">Gallery</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="#players">Players</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="#light">Highlights</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="#News">News</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="#contact">Contact</a></li>
+
+
+<li class="nav-item">
+<a class="nav-link active" href="#about">About</a>
+</li>
+</ul>
+      
+    </div>
+  </div>
+</nav>
