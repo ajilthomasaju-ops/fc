@@ -1,13 +1,13 @@
 body{
 font-family:'Poppins',sans-serif;
-background:#f8f9fa;
+background: #EAF8FF; /* Light sky blue */
 }
 .hero-logo{
     max-width: 40px;
 
 }
 .navbar{
-background:#0A2342;
+background-color: #0A2342;
 }
 .navbar-nav .nav-link:hover {
     color: rgb(179, 167, 167) !important; /* Bootstrap warning (gold) */
@@ -56,9 +56,14 @@ color:#0A2342;
 background:#F6C445;
 border:none;
 }
-
+#fame{
+  background: #EAF8FF; /* Light sky blue */
+}
 .btn-warning:hover{
 background:#e4b12e;
+}
+#gallery{
+    background: #EAF8FF; /* Light sky blue */
 }
 
 img{
@@ -75,6 +80,9 @@ width:100%;
 .player-card img{
     height:320px;
     object-fit:cover;
+}
+#players {
+    background: linear-gradient(to bottom, #74C0FC, #FFFFFF);
 }
 
 .achievement{
@@ -157,7 +165,10 @@ object-fit:cover;
 .str{
     color: #F6C445;
 }
-
+#vic{
+          background-color: #EAF8FF;
+    padding: 80px 0;
+}
 .card:hover{
 transform:translateY(-8px);
 transition:.4s;
@@ -201,6 +212,9 @@ box-shadow:none;
 border-color:#F6C445;
 }
 
+#contact{
+     background: linear-gradient(135deg, #FFF8DC, #FFFFFF);
+}
 /* Top Button */
 
 .top-btn{
